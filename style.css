@@ -45,64 +45,68 @@ body {
     line-height: 1;
 }
 
-.pozadi {
+.banner{
     position: relative;
-    width: 960px;
- 
+    background-image:url(images/pozadi.jpg);
+    height:475px;
 }
 
 .nadpis {
     color: white;
     font-size: 86px;
     position: absolute;
-    top: 30px;
-    left: 30px; 
+    top: 40px;
+    left: 40px; 
+    margin:0;
 }
 
 .telefon {
     position: absolute;
-    top: 210px;
-    left: 565px;
+    top: 75px;
+    left: 555px;
 }
 
 .headline {
     display: inline-block;
     width: 400px;
     position: absolute;
-    top: 230px;
+    top: 200px;
     left: 40px;
     color:white;
     font-size: 36px;
+    margin:0;
+    font-weight: 300;
 }
 
 .tlacitka {
     padding: 0px;
 } 
 
-.button ul {
+.tlacitka ul {
     margin: 0%;
 }
 
 .tlacitka li {
     display: inline-block;
     color: white;
-    border-radius: 10%;
+    border-radius: 8%;
     border-style: groove;
     position: relative;
-    bottom: 160px;
-    margin-right: 55px;
-    padding: 10px 25px; 
+    top: 375px;
+    margin-right: 25px;
+    padding: 15px 30px; 
 }
 
 
 .tlacitka a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
     padding: 5px;
 }
 
 .zvyraznena {
-    background-color: color #25133d;
+    background-color: #48418e;
 }   
 
 .kontejner {
@@ -115,7 +119,7 @@ body {
     width: 33.3%;
     text-align: center;
     justify-content: space-around;
-    padding: 10px 25px;
+    padding: 10px 20px;
 }
 
 .jmeno {
@@ -124,18 +128,17 @@ body {
 }
 
 .foto {
-   margin: -10px 90px;
-}
-
-.foto img {
-    width: auto;
+   margin: 10px;
+   width: 20%;
 }
 
 .paticka{
  display: block;
  background-color:   #48418e;
  color:white;
+ font-size: 14px;
  text-align: center;
- width: 100%
+ width: 100%;
+ padding:1px;
 }
 
